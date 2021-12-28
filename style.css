@@ -1,0 +1,91 @@
+body{
+    background: white;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: black;
+    background-image: url(Kitchen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 300px;
+    padding: 20px 40px;
+    text-align: center;
+  
+}
+header a{
+    margin-top: 40px;
+}
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li{
+    display: inline-block;
+    margin-right:20px;
+
+}
+a{
+    color: black;
+    
+    text-decoration: none; 
+}
+a:hover{
+    color:red;
+    border-bottom: 1px red;
+    
+}
+header .logo a{
+    background-image: url(logo.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 120px;
+    position: relative;
+    text-indent: -9999999px;
+    top:-30px;
+    width: 300px;
+}
+.features{
+    background-color: white;
+    display: flex;
+    color: gray;
+    padding:20px;
+    flex-direction: row;
+}
+.features figure{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.features figure img{
+ 
+    border: 1px solid white;
+    width:200px;
+    height: 200px;
+    border-radius: 30%;
+    object-fit: cover;
+    box-shadow: gray 0 0 10px;
+}
+.features figure img:hover{
+    box-shadow: gray 0 0 20px;
+}
+
+footer{
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+
